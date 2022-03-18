@@ -1,1 +1,469 @@
+@importar  URL (https://fonts.googleapis.com/css?family=Roboto:400 , 700 );
 
+html {
+    altura :  100 % ;
+    color de fondo :  # f8f8f8 ;
+  }
+
+cuerpo {
+    
+    margen :  0 automático;
+    relleno :  0 ;
+    familia de fuentes :  "Segoe UI Light" , "Segoe WPC" , "Segoe UI" , Helvetica , Arial ,  "Arial Unicode MS" , Sans-Serif;
+    color de fondo :  # f2f2f2 ;
+    altura de línea :  1,5 em ;
+    relleno superior :  80 px ;
+}
+
+h1 {
+    tamaño de fuente :  2,3 em ;
+    altura de línea :  1,3 em ;
+    margen :  15 px  0 ;
+    alineación de texto : centro;
+    peso de fuente :  300 ;
+}
+
+pag {
+    margen :  0  0  1,5 em  0 ;
+}
+
+/************
+//----------------------------------------
+// CABECERA
+//----------------------------------------
+************/
+# encabezado principal {
+    fondo :  rgba ( 224 ,  224 ,  224 ,  0.9 );
+    color : blanco;
+    altura :  50 píxeles ;
+    ancho :  100 % ;
+    izquierda :  0 ;
+    superior :  0 ;
+    posición : fijo;
+}   
+# encabezado principal  h1 {
+    color :  # 332C64 ;
+    font-weight : más negrita;
+}
+# encabezado principal  a {
+    color :  # 817E7E ;
+}
+    
+    
+/*
+* Logotipo
+*/
+# logo-encabezado {
+    flotante : izquierda;
+    relleno :  8 px  0  0  20 px ;
+    decoración de texto : ninguno;
+    margen :  0 automático;
+}
+
+    # logo-encabezado . colegio-foto {
+      pantalla : bloque;
+      margen superior :  -13 px ;
+      margen izquierdo :  -220 px ;
+    }
+
+    # logo-encabezado . nombre del sitio {
+        pantalla : bloque;
+        peso de fuente :  50 ;
+        tamaño de fuente :  0,4 em ;
+        margen superior :  -45 px ;
+        margen izquierdo :  50 px ;
+    }
+
+# encabezado de usuario {
+    flotante : derecho;
+    relleno :  8 px  0  0  20 px ;
+    decoración de texto : ninguno;
+    margen :  0 automático;    
+    margen derecho :  70 px ;
+}
+  
+    # encabezado de usuario . nombre de usuario {
+        pantalla : bloque;
+        peso de fuente :  50 ;
+        tamaño de fuente :  0,4 em ;
+        margen superior :  -8 px ;
+    }
+      
+    # encabezado de usuario . foto de usuario {
+        pantalla : bloque;
+        peso de fuente :  20 ;
+        tamaño de fuente :  0,3 em ;
+        color :  # 636161 ;
+        margen superior :  -48 px ;
+        margen derecho :  -230 px ;
+    }
+    
+/*
+* Navegacion
+*/
+
+ * {
+    tamaño de caja : cuadro de borde;
+  }
+  
+  . menú {
+    margen superior :  55 px ;
+    pantalla : bloque;
+    posición : relativa;
+    cursor : puntero;
+  }
+  
+  . título del menú {
+    pantalla : bloque;
+    ancho :  150 píxeles ;
+    altura :  40 píxeles ;
+    relleno :  10 px  0  0 ;
+    fondo :  # 9dc852 ;
+    alineación de texto : centro;
+    tamaño de fuente :  18 px ;
+    color :  #ffffff ; _
+    fuente-peso : negrita;
+    transformación de texto : mayúsculas;
+    transición :  0,3 s color de fondo;
+  }
+  
+  . título del menú : antes de {
+    contenido :  "" ;
+    pantalla : bloque;
+    altura :  0 ;
+    borde superior :  5 px sólido # 9dc852 ;
+    borde izquierdo :  75 px sólido transparente;
+    borde derecho :  75 px sólido transparente;
+    borde inferior :  0 sólido # dddddd ;
+    posición : absoluta;
+    arriba :  100 % ;
+    izquierda :  0 ;
+    índice z :  101 ;
+    transición :  0,2 s  0,2 s borde-superior suavizado ,  0,3 s borde-superior-color;
+  }
+  
+  . título del menú : flotar {
+    fondo :  # 8db842 ;
+  }
+  
+  . título del menú : flotar : antes de {
+    borde-superior-color :  # 8db842 ;
+  }
+  
+  . menú : desplazar  > . título del menú : antes de {
+    borde-superior-ancho :  0 ;
+    transición :  0,2 s de ancho de borde superior suave ,  0,3 s de borde superior de color;
+  }
+  
+  . título del menú : después de {
+    contenido :  "" ;
+    pantalla : bloque;
+    altura :  0 ;
+    borde izquierdo :  75 px sólido transparente;
+    borde derecho :  75 px sólido transparente;
+    borde inferior :  0 sólido # ebebeb ;
+    posición : absoluta;
+    inferior :  0 ;
+    izquierda :  0 ;
+    índice z :  101 ;
+    transición :  0,2 s borde-inferior suavizado;
+  }
+  
+  . menú : desplazar  > . título del menú : después de {
+    borde-inferior-ancho :  5 px ;
+    transición :  0,2 s  0,2 s borde-inferior-ancho de salida suave;
+  }
+  
+  . menu-title_2nd {
+    fondo :  # 4e96b3 ;
+  }
+  
+  . menu-title_2nd : pasar el cursor {
+    fondo :  # 3e86a3 ;
+  }
+  
+  . menu-title_2nd : antes de {
+    borde-superior-color :  # 4e96b3 ;
+  }
+  
+  . menu-title_2nd : pasar el cursor : antes de {
+    borde-superior-color :  # 3e86a3 ;
+  }
+  
+  . menu-title_3rd {
+    fondo :  # c97676 ;
+  }
+  
+  . menu-title_3rd : pasar el cursor {
+    fondo :  # b96666 ;
+  }
+  
+  . menu-title_3rd : antes de {
+    borde-superior-color :  # c97676 ;
+  }
+  
+  . menu-title_3rd : pasar el cursor : antes de {
+    borde-superior-color :  # b96666 ;
+  }
+  
+  . menu-title_4th {
+    fondo :  # dbab58 ;
+  }
+  
+  . menu-title_4th : pasar el cursor {
+    fondo :  # cb9b48 ;
+  }
+  
+  . menu-title_4th : antes de {
+    borde-superior-color :  # dbab58 ;
+  }
+  
+  . menu-title_4th : pasar el cursor : antes de {
+    borde-superior-color :  # cb9b48 ;
+  }
+  
+  . menu-title_5th {
+    fondo :  # c97676 ;
+  }
+  
+  . menu-title_5th : pasar el cursor {
+    fondo :  # b96666 ;
+  }
+  
+  . menu-title_5th : antes de {
+    borde-superior-color :  # c97676 ;
+  }
+  
+  . menu-title_5th : pasar el mouse : antes de {
+    borde-superior-color :  # b96666 ;
+  }
+  
+  . menu-title_6th {
+    fondo :  # 4e96b3 ;
+  }
+  
+  . menu-title_6th : pasar el cursor {
+    fondo :  # 3e86a3 ;
+  }
+  
+  . menu-title_6th : antes de {
+    borde-superior-color :  # 4e96b3 ;
+  }
+  
+  . menu-title_6th : pasar el cursor : antes de {
+    borde-superior-color :  # 3e86a3 ;
+  }
+  
+  . menu-title_7th {
+    margen superior :  -46 px ;
+    fondo :  # 9dc852 ;
+  }
+  
+  . menu-title_7th : pasar el cursor {
+    fondo :  # 8db842 ;
+  }
+  
+  . menu-title_7th : antes de {
+    borde-superior-color :  # 9dc852 ;
+  }
+  
+  . menu-title_7th : pasar el cursor : antes de {
+    borde-superior-color :  # 8db842 ;
+  }
+  
+  . menú desplegable {
+    ancho mínimo :  100 % ;
+    relleno :  15 px  0 ;
+    posición : absoluta;
+    arriba :  40 px ;
+    fondo :  #ebebeb ; _
+    índice z :  100 ;
+    transición :  0,5 s de relleno ,  0,5 s de fondo;
+  }
+  
+  . menú desplegable : después de {
+    contenido :  "" ;
+    pantalla : bloque;
+    altura :  0 ;
+    borde superior :  5 px sólido # ebebeb ;
+    borde izquierdo :  75 px sólido transparente;
+    borde derecho :  75 px sólido transparente;
+    posición : absoluta;
+    arriba :  100 % ;
+    izquierda :  0 ;
+    índice z :  101 ;
+    transición :  borde superior de 0,5 s ;
+  }
+  
+  . menú : no ( : hover ) > . menú desplegable {
+    relleno :  4 px  0 ;
+    fondo :  #dddddd ; _
+    índice z :  99 ;
+  }
+  
+  . menú : no ( : hover ) > . menú desplegable : después de {
+    borde-superior-color :  # dddddd ;
+  }
+  
+  . menú : no ( : hover ) > . título del menú : después de {
+    borde-fondo-color :  # dddddd ;
+  }
+  
+  . menú desplegable  >  * {
+    desbordamiento : oculto;
+    altura :  30 píxeles ;
+    relleno :  5 px  10 px ;
+    fondo : transparente;
+    espacio en blanco : ahora rap;
+    transición :  0,5 s altura bózier cúbico ( 0,73 ,  0,32 ,  0,34 ,  1,5 ) ,  0,5 s relleno bózier cúbico ( 0,73 ,  0,32 ,  0,34 ,  1,5 ) ,  0,5 s margen bózier cúbico ( 0,73 ,  0,32 ,  0,34 ) ,  1,5 0,5 s 0,2 s color , 0,2 s   color de fondo;
+  }
+  
+  . menú desplegable  >  * : hover {
+    fondo :  rgba ( 0 ,  0 ,  0 ,  0.1 );
+  }
+  
+  . menú : no ( : hover ) > . menú desplegable  >  * {
+    visibilidad : oculta;
+    altura :  0 ;
+    acolchado superior :  0 ;
+    relleno inferior :  0 ;
+    margen :  0 ;
+    color :  rgba ( 25 ,  25 ,  25 ,  0 );
+    transición :  0,5 s  0,1 s altura ,  0,5 s  0,1 s relleno ,  0,5 s  0,1 s margen ,  0,3 s color ,  0,6 s visibilidad;
+    índice z :  99 ;
+  }
+  
+  . hLista  >  * {
+    flotante : izquierda;
+    margen izquierdo :  -15 px ;
+    
+  }
+  . hLista  >  *  +  * {
+    margen izquierdo :  0 ;
+  }
+  
+  ul {
+   decoración de texto : ninguno;
+   estilo de lista : ninguno;
+  }
+
+/************
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+# contenido principal {
+    fondo : blanco;
+    ancho :  100 % ;
+    ancho máximo :  800 px ;
+    margen :  10 px automático;
+    sombra de caja :  0  0  10 px  rgba ( 0 , 0 , 0 , .1 );
+}
+
+    # encabezado de contenido principal  {
+      pantalla : bloque;
+      fondo :  # 4e96b3 ;
+      flotante : izquierda;
+      margen izquierdo :  -12 px ;
+      margen superior :  30 px ;
+      relleno :  10 px ;
+      altura :  100 % ;
+      ancho :  300 píxeles ;
+      alineación de texto : centro;
+      color : blanco;
+    }
+
+    # contenido principal . contenido {
+      relleno :  40 px ;
+      pantalla : bloque;
+    }
+    
+    # contenido principal . título {
+      margen superior :  80 px ;
+      tamaño de fuente : xx-grande;
+      alineación de texto : centro;
+    }
+
+    # contenido principal . texto {
+      ancho :  100 píxeles ;
+      borde-colapso : colapso;
+      margen izquierdo :  280 px ;
+      relleno-izquierda : 25 px ;
+      relleno a la derecha :  25 px ;
+      relleno :  50 px ;
+      
+    }
+    
+    . opción  img {
+      alineación de texto : centro;
+      margen izquierdo : 200 px ;
+      izquierda :  50 % ;
+      superior :  50 % ;
+      desbordamiento : oculto;
+     }
+    
+     # contenido principal . lista {
+       flotante : izquierda;
+     }
+
+     # contenido principal . calendario {
+       flotador : derecho;
+     }
+. hLista  >  * {
+        margen izquierdo :  -100 px ;
+        margen superior :  -5 px ;
+        pantalla : en línea;
+}
+. hLista  >  *  +  * {
+  margen izquierdo :  0 px ;
+}
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+# pie de página principal {
+    fondo :  # 333 ;
+    color : blanco;
+    alineación de texto : centro;
+    relleno :  10 px ;
+    margen superior :  -20 px ;
+    inferior :  0 ;
+    ancho :  100 % ;
+    posición : relativa;
+}
+    # pie de página principal  p {
+        margen :  0 ;
+    }
+    
+    # pie de página principal  a {
+        color :  # 948D8D ;
+        tamaño de fuente :  16 px ;
+    }
+    . Formularios {
+      margen superior :  10 % ;
+    }
+    . Formulario_Título {
+      tamaño de fuente :  30 px ;
+      margen inferior :  4 % ;
+    }
+    . Contenedor_entrada {
+
+     pantalla : flexible;
+     envoltura flexible : envoltura;
+     justificar-contenido : espacio-entre;
+    }
+    . btn-1 {
+      pantalla : flexible;
+      margen derecho :  40 px ;
+    }
+    . btn-1 : flotar {
+      sombra de caja :  0  4 px  16 px  rgba ( 49 ,  138 ,  172 ,  1 );
+      transición : todo 0,2 s facilidad;
+      cursor : puntero;
+    }
+    # tabla1 {
+      margen superior :   10 % ;
+      margen inferior :   20 % ;
+    }
